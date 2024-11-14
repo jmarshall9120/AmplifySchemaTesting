@@ -1,0 +1,33 @@
+{
+  "name": "amplifyschematesting",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "aws-amplify": "^6.8.2",
+    "vue": "^3.5.12"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.7.0",
+    "@aws-amplify/backend-cli": "^1.4.2",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "aws-cdk": "^2.166.0",
+    "aws-cdk-lib": "^2.167.0",
+    "constructs": "^10.4.2",
+    "esbuild": "^0.24.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "vue-tsc": "^2.1.8"
+  },
+  "description": "This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
